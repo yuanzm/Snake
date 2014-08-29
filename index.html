@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>贪吃蛇</title>
+	<link rel="stylesheet" type="text/css" href="snake.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="game-box">
+			<div id="game-content"></div>
+			<button id="start">Start</button>
+		</div>
+		<div id="game-info">
+			<ul>
+				<li>已贪吃<span id = "eatNumber" class = "tag">0</span>个</li>
+				<li>积分<span id = "score" class = "tag">0</span>分</li>
+			</ul>
+			<div id="game-rule">
+			<ul>
+				<li>玩法:</li>
+				<li>按<span class = "tag">start</span>按钮开始游戏</li>
+				<li><span class = "tag">上 下 左 右</span>控制方向</li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="snake.js"></script>
+</body>
+</html>
